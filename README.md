@@ -1,2 +1,19 @@
 # CS360Module8Portfolio
-SNHU CS360 Module 8 Portfolio
+
+Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
+For this project, I developed an Inventory Management App that was designed to help warehouse employees track and manage inventory more efficiently. The app allows users to create accounts, log in, add inventory items, update quantities, and delete items. It also includes optional SMS notifications when an item's quantity reaches zero. The main goal was to create a easy to use app that helps businesses keep their inventory organized and reduces the chances of running out of stock. 
+
+What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
+The application includes a login screen, an inventory management screen, an add-item screen, and an SMS settings screen. When designing these screens, my main focus was to keep the layout simple and the navigation straightforward. Users can easily view inventory quantities, make changes, and manage their notification preferences without having to navigate through unnecessary screens. I believe the design was successful because it prioritized functionality and made common inventory management tasks easy to complete.  
+
+How did you approach the process of coding your app? What techniques or strategies did you use? How could those techniques or strategies be applied in the future?
+I approached development by breaking the application into smaller features and working on them individually. I started with the SQLite database and account authentication before moving on to inventory management and SMS functionality. After implementing each feature, I tested it to make sure it worked as expected before continuing on to the next feature. This approach helped me stay organized and made troubleshooting easier. I will continue to use this strategy in the future because it makes development more manageable.
+
+How did you test to ensure your code was functional? Why is this process important, and what did it reveal?
+I tested the app using the Android Studio emulator. I checked account creation, login authentication, adding and deleting inventory items, updating quantities, and saving SMS settings. I also tested multiple warehouse accounts to confirm that their inventory and SMS settings stayed separate. Testing was crucial because it helped me identify errors and verify that the app was working as intended. It also showed me how important it is to test different scenarios rather than only checking whether the app runs.  
+
+Consider the full app design and development process from initial planning to finalization. Where did you have to innovate to overcome a challenge?
+One challenge I encountered while testing was realizing that different warehouse accounts were sharing the same inventory and SMS settings. Since each account was supposed to represent a separate warehouse or business, I needed to change how the application stored and retrieved data. I modified the SQLite database to associate inventory items with specific accounts and adjusted the SMS settings to remain separate. This experience taught me the importance of adapting an app's design or logic when new requirements or problems come up.  
+
+In what specific component of your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+I believe I was particularly successful in implementing the inventory management system and connecting it to the SQLite database. Users can add items, update quantities, and delete inventory records, with changes saved for future sessions. I was also able to separate inventory data between warehouse accounts. This component demonstrated my ability to connect an app's user interface with database operations and create functionality that addresses real user needs.  
